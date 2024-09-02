@@ -1,0 +1,78 @@
+@charset "UTF=8";
+@font-face {
+    font-family: 'amor1';
+    src: url(love\ story\ ttf.ttf) format(truetype);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    text-align: justify;
+   background-image: linear-gradient(to left, rgb(201, 6, 6), rgb(143, 61, 61));
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+header{
+    font-family: 'amor1';
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), black);
+    text-align: center;
+    padding: 40px;
+
+}
+nav{
+    background-color: rgb(226, 43, 43);
+    text-decoration: none;
+    padding: 10px;
+
+}
+nav > a{
+    text-decoration: none;
+   color: white;
+    padding: 10px;
+}
+nav > a:hover {
+    background-color: black;
+    transition-duration: 2s;
+}
+main {
+    width: 500px;
+    padding: 20px;
+    box-shadow: 3px 3px 7px black;
+    background-color: wheat;
+   border-radius: 30px;
+    margin: auto;
+    
+    
+    
+}
+main p {
+    text-align: justify;
+}
+
+h2{
+    font-family: 'amor1';
+    text-align: center;
+    
+}
+h4 {
+    font-family: 'amor1';
+    text-align: center;
+}
+p {
+    text-align: justify;
+    
+
+}
+.imagem1 {
+    padding: 20px;
+    display: block;
+    margin: auto;
+    min-height: 100px;
+    max-height: 400px;
+
+}

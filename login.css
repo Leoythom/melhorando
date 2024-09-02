@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+ @font-face {
+    font-family: 'amor2';
+    src: url(love\ story\ ttf.ttf) format(truetype);
+ }
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url(1989436.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header {
+    
+    flex-wrap: wrap;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+
+
+
+.menu {
+    padding-right: 60px; 
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+
+.inicio {
+    color: rgb(190, 228, 235);
+    text-shadow: 2px 2px 2px black;
+    font-family: 'amor2';
+    text-align: center;
+
+}
+main {
+   
+    backdrop-filter: blur(7px);
+    border: 2px solid  rgba(228, 46, 188, 0.788);;
+    width: 280px;
+    padding: 30px;
+    height: 293px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 8px 20px black;
+}
+
+.segundo {
+    
+    width: 250px;
+    color: rgb(17, 7, 7);
+    background-color: rgba(148, 51, 187, 0.5);
+    padding: 6px;
+    backdrop-filter: blur(200px);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    color: white;
+    
+}
+.terceiro {
+    
+    width: 250px;
+    color: rgb(17, 7, 7);
+    background-color: rgba(148, 51, 187, 0.5);
+    padding: 6px;
+    backdrop-filter: blur(200px);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    color: white;
+}
+
+.abc {
+    box-shadow: 2px 2px 2px black;
+    width: 270px;
+    color: rgb(17, 7, 7);
+    background-color: rgba(148, 51, 187, 0.5);
+    padding: 6px;
+    backdrop-filter: blur(200px);
+    border: 2px solid rgb(114, 151, 221);
+    border-radius: 30px;
+    color: white;
+   
+   
+    text-align: center;
+    background-color: rgb(64, 64, 131);
+    
+}
+
+.logo a{
+    font-size: 8em;
+}
+
+a {
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.603);
+    
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    
+  
+}
+
+
+.nomes i{
+    color: yellow;
+    position: absolute;
+    right: 20px;
+    top: 142px;
+    font-size: 1.3em;
+   
+   
+}
+
+
+.senha i {
+    font-size: 1.3em;
+    color: yellow;
+    position: absolute;
+    right: 20px;
+    top: 188px;
+}
+
+
+
